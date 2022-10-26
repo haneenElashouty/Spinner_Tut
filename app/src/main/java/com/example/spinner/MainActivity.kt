@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         //start with example one
 
-        //we already have the least and every thing the only thing we need is when item selected
+        //we already have thing and the only thing we need is when item selected
         /*note : if you write ( spMonths.onItemSelectedListener= object :{} ) then clicked on alt+enter
         you can implement the function automatic
          */
