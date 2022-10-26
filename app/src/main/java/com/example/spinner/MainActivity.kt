@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
         //create adapter
         // note: ArrayAdapter<String> (context,layout style ,array of data)
          val DayOfWeekAdaptor = ArrayAdapter<String>(this,R.layout.support_simple_spinner_dropdown_item,Days)
-        //connect adaptor
+        //connect adapter
         spDayOfWeek.adapter=DayOfWeekAdaptor
         //and again what if item selected
         spDayOfWeek.onItemSelectedListener= object : AdapterView.OnItemSelectedListener {
